@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+
+body {
+  /* background-color: #fbfbfb; */
+  background-image: url("https://th.bing.com/th/id/OIP.Lf9HgOlFEWjrnEH6h45MIwHaE7?pid=ImgDet&rs=1");
+  height: 100%;
+  width:100%;
+}
+
+.app-title {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 3vw;
+  color: rgb(237, 218, 14);
+}
+
+.hashtag {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px 0px #c1c1c1;
+}
+
+.hashtag:focus {
+  border: none;
+  box-shadow: none;
+  box-shadow: 1px 1px 3px 0px #c1c1c1;
+}
+
+.hashtag-icon {
+  border: none;
+  border-radius: 0px;
+  font-size: 16px;
+  font-family: "Poppins";
+  /* box-shadow: 3px 3px 8px 0px #c1c1c1; */
+  box-shadow: 3px 3px 8px 0px rgb(237, 218, 14) ;
+}
+
+.submit {
+  background-color: #3949ab;
+  /* background-color: #a81813; */
+  border: none;
+  border-radius: 0px;
+  color: white;
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.submit:hover {
+  /* background-color: #303f9f; */
+  background-color: rgb(237, 218, 14);
+}
+
+.submit:active {
+  border: none;
+  box-shadow: none;
+  /* background-color: #303f9f; */
+  background-color: rgb(237, 218, 14);
+}
+
+.tweets {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px 0px #ededed;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+}
+
+.tweets h2 {
+  color: #303f9f;
+  font-size: 16px;
+  margin-top: 10px;
+  font-family: "Poppins";
+}
+
+.tweets h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Poppins";
+}
+
+.footer {
+  /* background-color: #f9f9f9; */
+  background: transparent;
+  height: 40px;
+  width: 100%;
+  padding: 8px 0px 0px 0px;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  color:"#3949AB";
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.desc_content {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+.desc_heading {
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 600;
+}
+.box{
+  background-color:#eeeee4
+}
