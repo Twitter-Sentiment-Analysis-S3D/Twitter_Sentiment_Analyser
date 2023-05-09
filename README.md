@@ -1,4 +1,4 @@
-# twitter-sentiment-analysis-web-app
+# Twitter-Sentiment-Analysis-Web-App
 
 <br>
 
